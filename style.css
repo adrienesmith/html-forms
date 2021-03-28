@@ -1,0 +1,53 @@
+
+
+fieldset{
+    background-color: aquamarine;
+    padding: 10px 12px;
+      margin: 10px 0 20px 0;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  legend {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+  }
+  
+  form textarea {
+    height: 8rem;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"] {
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  form h2 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  form input[type="radio"]:last-of-type {
+    margin-bottom: 10px;
+  }
+  
+  .group{
+    flex-direction: column;
+  }
+  
+  /* ---  (Desktop)  --- */
+  
+  @media all and (min-width: 800px) {
+    form textarea {
+    height: 4.75rem;
+    }
+  }

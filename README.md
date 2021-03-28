@@ -1,0 +1,1 @@
+Completed assignemt for Front-end Foundations, checkpoint 6: HTML Forms
